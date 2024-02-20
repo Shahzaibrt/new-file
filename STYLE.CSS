@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-size: 30px;  
+        }
+        #all{
+            border: 25px solid rgb(120, 179, 230);
+        }
+#header{
+    padding: 15px;
+    border: 5px solid rgb(120, 179, 230);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#side1{
+    display: flex;
+    padding: 4px;
+}
+#s1{
+    border: 5px solid rgb(120, 179, 230);
+    padding: 5px;
+    background-color: rgb(120, 179, 230) ;
+}
+#s2{
+    border: 5px solid rgb(255, 89, 89);
+   
+    background-color: rgb(255, 89, 89) ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 1%;
+}
+#s3{
+    border: 5px solid rgb(48, 121, 186);
+    background-color: rgb(48, 121, 186) ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+}
+#bodyContent{
+   
+    border: 5px solid rgb(120, 179, 230);
+    display: flex;
+    justify-content: space-between;
+    gap: 0p 20px;
+  
+}
+   
+
+#left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid rgb(48, 121, 186);
+    width: 70%;
+    justify-content: center;
+    gap: 20px 40px;
+    height: 520px;
+    
+
+}
+#right{
+    border: 5px solid rgb(48, 121, 186);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 30%;
+    justify-content: center;
+    
+}
+#c1{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: 5px solid rgb(48, 121, 186);
+    gap: 10px 20px;
+}
+#c2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    border: 5px solid rgb(48, 121, 186);
+    
+}
+#c3{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: 5px solid rgb(48, 121, 186);
+    
+}
+#c4{
+    background-color:  rgb(48, 121, 186);
+   height: 30%;
+   width: 44%;
+   margin-top: 40%;
+  
+}
+#footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 5px solid blue;
+
+}
+#foot{
+    padding: 5px;
+   
+    display: flex;
+    width: 80%;
+}
+#foot div {
+    text-align: center;
+    flex-grow: 1;
+   
+    padding: 10px;
+}
+#foot1{
+    
+    background-color: crimson;
+}
+#foot2{
+    
+    width: 20%;
+    background-color:  rgb(48, 121, 186);
+}
+#foot3{
+    
+    width: 20%;
+    background-color:  rgb(92, 186, 48);
+}
